@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40b7d28d"
+    tools:context="com.sobin.headerwave.MainActivity">
+
+
+    <com.sobin.headerwave.ObservableScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:overScrollMode="never"
+        >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_marginTop="50dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="1111111111111111111111"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:text="234444"/>
+
+       </LinearLayout>
+
+       <!-- <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/contain"/>-->
+
+    </com.sobin.headerwave.ObservableScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <com.sobin.library.HeaderWaveView
+            android:id="@+id/header_wave_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/test"/>
+    </RelativeLayout>
+</RelativeLayout>
